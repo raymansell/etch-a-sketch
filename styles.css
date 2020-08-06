@@ -1,0 +1,54 @@
+html {
+    display: flex;
+    justify-content: center;
+    background-color:#e5e2e2;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.gamemode, .options {
+    height: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+
+}
+
+button {
+    padding: 5px;
+    border: solid 5px;
+    border-radius: 10%;
+    font-family: 'Press Start 2P', cursive;    
+}
+
+.wrapper {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: solid 7px;
+    border-color:rgb(15,15,15);
+}
+
+.squares {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    border-radius: 2px;
+    border: solid 1px;
+    border-color:#888888;
+}
+
+.blackBox {
+    background-color: rgb(20, 20, 20);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
